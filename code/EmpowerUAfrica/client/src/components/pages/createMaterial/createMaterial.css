@@ -1,0 +1,49 @@
+.addDeliver {
+    display: block;
+}
+
+.addDeliver>div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.addDeliver h2 {
+    display: inline;
+    margin: 0;
+}
+
+.addDeliver input, .addDeliver select, .addDeliver label{
+    display: inline;
+    font-size: 1.2em;
+    width: 60%;
+    float: right;
+    margin: 0 auto;
+}
+
+.addDeliver>div:nth-child(4) textarea, .new-content-description {
+    resize: none;
+    width: 100%;
+    min-height: 200px;
+    font-size: 1.3em;
+}
+
+.create-material-content {
+
+    height: auto;
+}
+
+.create-material-footer {
+
+}
+
+.create-material-footer > button {
+    font-size: 1.3em;
+    border: 1px solid darkgreen;
+    border-radius: 7px;
+    padding: .2em;
+    transition: 300ms;
+}
+
+#create-material-submit-btn {
+    float: right;
+}

@@ -1,0 +1,13 @@
+.pageselect {
+    margin: 1 auto;
+    border-spacing: 1em;
+}
+.pageselect-btn{
+    background-color: var(--btn-confirm-color);
+    padding: .25em .5em;
+    user-select: none;
+    border-radius: .3em;
+}
+.pageselect-btn:hover {
+    cursor: pointer;
+}

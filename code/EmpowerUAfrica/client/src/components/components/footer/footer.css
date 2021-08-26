@@ -1,0 +1,69 @@
+/*
+Footer for webiste.
+*/
+.footer-area1 {
+    background-color: rgb(63, 63, 63);
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: space-between;
+}
+
+.footer-area1 > div{
+    align-items: center;
+    text-align: center;
+}
+
+/*
+Footer brand.
+*/
+
+.footer-brand {
+    font-size: 40px;
+}
+
+
+#footer-home {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+Information about the website.
+*/
+.footer-info {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/*
+Github link to our project.
+*/
+#footer-github {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#footer-github:hover {
+    background-color: rgb(19, 19, 19);
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+
+/*
+Description about our team.
+*/
+.team-description {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: -18px;
+}
+
+.team {
+    position: relative;
+    top: 10px;
+}

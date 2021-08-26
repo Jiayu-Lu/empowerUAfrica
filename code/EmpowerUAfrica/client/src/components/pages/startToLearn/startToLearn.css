@@ -1,0 +1,47 @@
+.start_to_learn {
+    padding-top: 150px;
+    min-height: 100%;
+    background: url('../../../resource/images/blackBoard.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.start_to_learn>div:nth-child(1)>h2{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: black;
+    background: -webkit-linear-gradient(135deg, #a6db43 0%,#d8c627 50%);
+}
+
+.start_to_learn>div:nth-child(1) a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background: yellowgreen;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.start_to_learn>div:nth-child(1) a:hover{
+    background: black;
+    color: white;
+}

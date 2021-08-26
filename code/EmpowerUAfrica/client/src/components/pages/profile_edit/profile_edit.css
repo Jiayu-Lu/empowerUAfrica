@@ -1,0 +1,269 @@
+/*
+body of edit profile page
+*/
+.edit-profile {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 7% 23% 3% 55% 12%;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url('../../../resource/icons/background-image.png');
+    background-size: cover;
+    min-height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    outline: none;
+}
+/*
+repositive
+*/
+.edit-grid1 {
+    
+}
+
+.edit-grid2 {
+    margin-top: 60px;
+
+}
+
+.edit-grid2-photo {
+    background-image: url('../../../resource/icons/p-photo.jpg');
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    min-height: 180px;
+    max-width: 75%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+/*
+the part of changing the user's photo
+*/
+#change-photo {
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    padding: 8px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px gray;
+    transition: 0.5s;
+}
+
+#change-photo:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+/*
+repositive
+*/
+.edit-grid2-infoarea {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 160px;
+    background-color: white;
+    color: black;
+    min-height: 200px;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    z-index: 2;
+}
+
+.edit-grid2-name {
+    padding-top: 30px;
+}
+
+#fname, #lname{
+    margin-top: 15px;
+    padding: 3px 0;
+    border-radius: 10px;
+}
+/*
+repositive
+*/
+.edit-grid2-title {
+    background-color: rgb(236, 236, 236);
+    margin: 30px 80px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+.edit-grid2-infoarea2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 300px;
+    background-color: rgba(236, 236, 236, 90%);
+    min-height: 270px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    z-index: 1;
+}
+
+.edit-grid2-age {
+    padding-top: 70px;
+}
+/*
+age
+*/
+#age {
+    width: 60px;
+}
+
+.edit-grid2-location {
+    margin-top: 10px;
+}
+
+/*
+email
+*/
+.edit-grid2-email {
+    margin-top: 10px;
+}
+
+/*
+photo
+*/
+.edit-grid2-phone {
+    margin-top: 10px;
+}
+
+/*
+comfirm button
+*/
+.edit-grid2-confirm {
+    margin-top: 30px;
+}
+
+#edit-grid2-confirm {
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    padding: 8px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px gray;
+    transition: 0.5s;
+    margin-top: 0px;
+}
+
+#edit-grid2-confirm:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.edit-grid3 {
+    
+}
+
+.edit-grid4 {
+    background-color: rgba(255, 255, 255, 90%);
+    margin-top: 120px;
+    min-height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+.edit-grid4-aboutme-header {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#edit-aboutme {
+    max-width: 70%;
+    min-width: 70%;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+/*
+industry
+*/
+.edit-grid4-industry {
+    background-color: rgb(236, 236, 236);
+    margin-top: 30px;
+    padding: 30px 0;
+}
+
+.edit-grid4-industry-header {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#edit-industry {
+    max-width: 70%;
+    min-width: 70%;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+.edit-grid4-industry-text {
+    padding: 0 auto;
+}
+/*
+tags
+*/
+.edit-grid4-tag {
+    margin-top: 50px;
+}
+
+.edit-grid4-tag-header {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.edit-grid4-tag-text {
+    text-align: left;
+    margin: 20px 40px;
+}
+
+.edit-grid4-tag-text p{
+    background-color: yellowgreen;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 20px;
+    max-width: 50%;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+.edit-grid4-tag-text p input{
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    min-width: 100%;
+    overflow: auto;
+}
+/*
+add tags button
+*/
+#tag-add {
+    margin-left: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    background-color: yellowgreen;
+    color: black;
+    transition: 0.5s;
+
+}
+
+#tag-add:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.edit-grid5 {
+    
+}

@@ -1,0 +1,51 @@
+.assignmentSubmission_component {
+    padding: 0.5vh 1vw;
+    margin-bottom: 2vh;
+}
+
+#embedded_file_window {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid gray; 
+}
+.submission-content-p {
+    overflow-y: scroll;
+}
+
+.grade_section {
+    width: 100%;
+}
+.grade_section h3 {
+    display: inline-block;
+}
+
+.grading-buttons button {
+    width: 100%;
+    margin: .3em;
+    padding: .2em 0;
+}
+
+#grade_score {
+   padding: 5px 0;
+}
+
+#grade_comment {
+    resize: none;
+    width: 100%;
+    height: 20vh;
+    font-size: 1.1em;
+}
+
+#confirm_grade {
+    margin-top: 2vh;
+    margin-left: 7.5vw;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#confirm_grade:hover {
+    background-color: black;
+    color:#eee;
+}

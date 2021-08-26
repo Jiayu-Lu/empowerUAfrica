@@ -1,0 +1,121 @@
+/* signup page body */
+.signup-page {
+    min-height: 1000px;
+    background-image: url('../../../resource/icons/yellow_background.jpg');
+    background-size: cover;
+}
+
+/* signup page form field */
+.signup-field {
+    background-color: white;
+    width: 70%;
+    min-height: 650px;
+    margin: 200px auto;
+    box-shadow: 0px 1px 10px #888888;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 10% 40% 10%;
+    border-radius: 20px;
+}
+
+
+/* signin page left */
+.signup-left {
+    background-image: url('../../../resource/icons/login_background.jpg');
+    background-size: cover;
+}
+
+/* signin page left */
+.signup-left {
+    background-image: url('../../../resource/icons/login_background.jpg');
+    background-size: cover;
+}
+
+.signup-left-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.signup-left-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signup-left-text2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+}
+
+#direct-signin {
+    padding: 8px 12px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    text-decoration: none;
+}
+
+#direct-signin:hover {
+    background-color: rgb(48, 48, 48);
+    color: rgb(196, 196, 196);
+}
+
+/* signin page form field */
+
+.signup-title {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.signup-form-field {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#signup-username-input, #signup-password-input, #signup-cpassword-input, #signup-cemail-input, #signup-email-input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 3px 0;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px black;
+    outline: none;
+}
+
+.account-type {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#account-type {
+    padding: 3px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+/* signin page signin button */
+#signup-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+}
+
+#signup-button:hover {
+    background-color: black; 
+    color: white;
+}

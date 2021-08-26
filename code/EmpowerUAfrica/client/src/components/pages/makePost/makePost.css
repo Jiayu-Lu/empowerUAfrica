@@ -1,0 +1,56 @@
+/*
+body of make post page
+*/
+.makePost {
+    margin-top: 70px;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-image: url('../../../resource/icons/background_image.png');
+    background-size: cover;
+}
+/*
+the textarea of title and content
+*/
+.makePost_center {
+    background-color: rgba(223, 223, 223, 0.9);
+}
+
+.makePost_title, .makePost_content {
+    margin: 25px 30px;
+}
+.makePost_content textarea {
+    min-height: 200px;
+    min-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    font-size: 17px;
+}
+
+.makePost_title textarea {
+    min-height: 50px;
+    min-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    font-size: 25px;
+}
+
+/*
+create post button
+*/
+#createPost {
+    background-color: yellowgreen;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin: 25px 30px;
+}
+
+#createPost:hover {
+    background-color: black;
+    color: white;
+}

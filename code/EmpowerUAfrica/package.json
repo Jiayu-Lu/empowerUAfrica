@@ -1,0 +1,31 @@
+{
+  "name": "empoweruafrica",
+  "version": "1.0.0",
+  "description": "see README.md",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon --ignore ./client/ server.js",
+    "client-install": "cd client && npm install",
+    "install-all": "npm install && npm run client-install",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullcalendar/daygrid": "^5.8.0",
+    "@fullcalendar/react": "^5.8.0",
+    "bootstrap": "^4.6.0",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mysql2": "^2.2.5",
+    "neo4j-driver": "^4.3.1",
+    "react-bootstrap": "^1.6.1",
+    "react-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

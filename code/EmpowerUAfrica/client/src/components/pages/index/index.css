@@ -1,0 +1,76 @@
+/*
+image in the index page
+*/
+.title-image {
+  background-image: url('http://localhost:3000/bg.jpg');
+  background-position: top center;
+  background-size: cover;
+  padding-bottom: 300px;
+  height: 41%;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+/*
+text in the index page
+*/
+.wallup-text {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-family: serif;
+}
+
+/*
+index page body
+*/
+.mainpage-container {
+  display: grid;
+  grid-template-columns: 20% 40% 20%; 
+  justify-content: space-between;
+  grid-column-gap: 10px;
+} 
+
+.title-area1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.title-area2 {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.title-area2 .left{
+  font-size: 20px;
+}
+
+/*
+learn more button
+*/
+.learnmore {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: blue;
+}
+
+#learnmore {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+#learnmore:hover {
+  background-color: rgb(50, 50, 50);
+}
+

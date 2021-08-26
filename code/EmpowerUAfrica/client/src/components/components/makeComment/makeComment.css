@@ -1,0 +1,33 @@
+.make-comment-box > button{
+    font-size: 1.2em;
+    margin: .2em;
+}
+
+.make-comment-textarea{
+    height: 5em;
+    max-height: 5em;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.make-comment-box button {
+    border-radius: 7px;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+}
+
+.make-comment-box .submit-btn {
+    background-color: var(--btn-confirm-color);
+}
+.make-comment-box .submit-btn:hover {
+    background-color: var(--btn-confirm-hover-color);
+}
+
+.make-comment-box .discard-btn {
+    background-color: var(--btn-cancel-color);
+}
+.make-comment-box .discard-btn:hover {
+    background-color: var(--btn-cancel-hover-color);
+}

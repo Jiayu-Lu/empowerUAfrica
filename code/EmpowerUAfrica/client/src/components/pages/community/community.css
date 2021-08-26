@@ -1,0 +1,70 @@
+/* community page body */
+.community {
+    margin-top: 70px;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-image: url('../../../resource/icons/background_image.png');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* grid1 section */
+.grid1 {
+
+}
+
+/* grid2 section */
+.grid2 {
+    background-color: rgba(223, 223, 223, 0.9);
+}
+
+.grid2-topbar {
+    background-color: white;
+    margin: 40px 60px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+#direct-makepost {
+    background-color: yellowgreen;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#direct-makepost:hover {
+    background-color: black;
+    color: white;
+}
+
+.search_input {
+    padding: 2px 15px;
+    margin-left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    outline: none;
+}
+
+.search_button {
+    padding: 2px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+
+.grid2-postsection {
+    margin: 40px 60px;
+    padding: 20px 20px;
+}
+
+/* grid3 section */
+.grid3 {
+    
+}

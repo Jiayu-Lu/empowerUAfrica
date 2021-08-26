@@ -1,0 +1,175 @@
+/* 
+Navigation bar body 
+*/
+.navbar {
+    font-family: serif, Georgia, 'Times New Roman', Times;
+    background-color: white;
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    top: -1px;
+    z-index:10; 
+}
+
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 20% 30% 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-top: 20px;
+}
+
+
+.navbar-grid .navbar-links{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-grid .navbar-icons{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/* 
+Navigation bar brand 
+*/
+.navbar-brand {
+    font-family: Impact, fantasy;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#home {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+/* 
+Navigation bar links 
+*/
+.navbar-community, .navbar-assignment, .navbar-learn, .navbar-calendar {
+    font-family: Gill Sans, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#community, #assignment, #learn, #calendar {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+#community:hover, #assignment:hover, #learn:hover, #calendar:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* 
+Navigation bar icons 
+*/
+#navbar-notification, #navbar-chat, #navbar-profile {
+    opacity: 0.7;
+}
+
+#navbar-notification {
+    position: relative;
+}
+
+#navbar-chat {
+    position: relative;
+}
+  
+#navbar-notification:hover, #navbar-chat:hover, #navbar-profile:hover {
+    opacity: 1;
+    color: black;
+}
+
+/* 
+Navigation bar profile dropdown 
+*/
+.profile-dropdown {
+    position: relative;
+    display: block;
+}
+  
+.profile-dropdown-content {
+    box-shadow: 0px 0px 3px black;
+    display: none;
+    position: absolute;
+    right: -60px;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    z-index: 1;
+    font-size: 13px;
+}
+  
+.profile-dropdown-content > a, .profile-dropdown-content > button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+}
+
+.profile-dropdown-content > button {
+    width: 100%;
+    cursor:pointer;
+}
+  
+.profile-dropdown-content > a:hover, .profile-dropdown-content > button:hover{
+    background-color: #ddd;
+    text-decoration: none;
+}
+  
+.profile-dropdown:hover .profile-dropdown-content {
+    display: block;
+}
+
+/* 
+Navigation bar greeting 
+*/
+#greeting-signin {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 214, 40);
+    padding: 7px 17px;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+
+#greeting-signin:hover {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-grid {
+        grid-template-columns: 100%;
+    }
+
+    .navbar-grid .navbar-links{
+        grid-template-columns: 100%;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    * {
+        font-size: 50%;
+    }
+    
+}

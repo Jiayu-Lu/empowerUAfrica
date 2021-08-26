@@ -1,0 +1,102 @@
+/* signin page body */
+.signin-page {
+    min-height: 1000px;
+    background-image: url('../../../resource/icons/yellow_background.jpg');
+    background-size: cover;
+}
+
+/* signin page form field */
+.signin-field {
+    background-color: white;
+    width: 70%;
+    min-height: 600px;
+    margin: 200px auto;
+    box-shadow: 0px 1px 10px #888888;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 10% 40% 10%;
+    border-radius: 20px;
+}
+
+/* signin page left */
+.signin-left {
+    background-image: url('../../../resource/icons/login_background.jpg');
+    background-size: cover;
+}
+
+.signin-left-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.signin-left-text {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signin-left-text2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+}
+
+#direct-signup {
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 8px 12px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    text-decoration: none;
+}
+
+#direct-signup:hover {
+    background-color: rgb(48, 48, 48);
+    color: rgb(196, 196, 196);
+}
+
+/* signin page title */
+.signin-title {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+/* signin page form field */
+.signin-form-field {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+#signin-username-input, #signin-password-input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 3px 0;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px black;
+    outline: none;
+}
+
+/* signin page signin button */
+#signin-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-top: 60px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+}
+
+#signin-button:hover {
+    background-color: black; 
+    color: white;
+}

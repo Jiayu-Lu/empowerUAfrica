@@ -1,0 +1,75 @@
+.module_deliver {
+    margin: 20px auto;
+    width: 60%;
+    background: rgba(214, 200, 72, .99);
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 black;
+}
+
+.module_deliver>div:nth-child(1){
+    border-bottom: 2px solid rgb(54, 49, 49);
+}
+
+.module_deliver>div:nth-child(1) h2{
+    display: inline-block;
+}
+
+
+.module_content>div {
+    border-bottom: 2px solid rgb(54, 49, 49);
+    padding: 15px 20px;
+    background-color: white;
+}
+
+#add_deliver {
+    display: inline-block;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(135deg, rgb(158, 158, 158), #eee);
+    color: black;
+    text-decoration: none;
+}
+
+.toggle-expand-btn {
+    border: 0;
+    cursor: pointer;
+    padding: .4em;
+    float: right;
+    background: none;
+}
+
+.module_deliver .icon {
+    margin-left: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    opacity: .7;
+    transition: 300ms;
+}
+.module_deliver .icon:hover {
+    opacity: 1;
+}
+
+.edit-module {
+    margin: .4em 0;
+}
+
+.edit-module  input{
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.edit-module  button {
+    border-radius: 7px;
+    transition: 300ms;
+    border: 1px solid darkgreen; 
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.edit-module button > h2 {
+    margin: .25em .3em;
+}
+

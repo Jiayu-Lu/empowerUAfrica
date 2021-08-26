@@ -1,0 +1,14 @@
+/*
+text in the tags
+*/
+.tag-text p{
+    background-color: yellowgreen;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 6px;
+    display:inline-block;
+    width:auto;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}

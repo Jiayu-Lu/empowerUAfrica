@@ -1,0 +1,74 @@
+/*
+post page.
+*/
+.post {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    margin: 30px auto;
+    padding: 20px;
+
+    display: grid;
+}
+
+.post-user-abstract {
+    grid-row: 1;
+}
+.post-abstract {
+    grid-row: 2;
+}
+/*
+The footer of post page
+*/
+.post-footer {
+    grid-row: 3;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*
+The link to community/post_content.
+*/
+.link-to-post {
+    text-decoration: none;
+    color: black;
+}
+.link-to-post:hover {
+    color: var(--link-hover-color); 
+}
+/*
+post icon
+*/
+.post > img{
+
+    width: 35px;
+    height: 35px;
+}
+/*
+Share icon
+*/
+.post-icon {
+    height: 1.5em;
+    width: 1.5em;
+}
+.share-icon:hover {
+    cursor: pointer;
+}
+/*
+share part
+*/
+.share{
+    text-decoration: none;
+    font-weight: 200;
+    color: black;
+    font-size: 20px;
+}
+.share:hover {
+    cursor: pointer;
+    color: var(--link-hover-color); 
+}
+
+.share > .share-icon {
+    height: 20px;
+    width: 20px;
+}

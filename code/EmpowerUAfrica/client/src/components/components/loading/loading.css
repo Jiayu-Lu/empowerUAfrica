@@ -1,0 +1,6 @@
+/*
+Set the font size of "Loading...".
+*/
+.loadingText {
+    font-size: 2em;
+}

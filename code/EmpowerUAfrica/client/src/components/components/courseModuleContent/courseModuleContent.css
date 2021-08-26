@@ -1,0 +1,62 @@
+.course-module-content-name {
+    margin: .2em 0;
+}
+
+.course-module-content {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.course-module-content:hover {
+    background-color: antiquewhite;
+}
+
+.overdue {
+    color: red; 
+}
+
+.video-wrapper {
+    text-align: center;
+}
+
+.course-module-content iframe {
+    margin: 1em auto;
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 0 15px gray;
+    background-color: white;
+}
+
+.course-content-full-description {
+    transition: color 200ms;
+}
+.course-content-full-description:hover {
+    color: gray;
+}
+
+.course-module-content > div > h3 > button {
+    border: 0;
+    cursor: pointer;
+    padding: .4em;
+    float: right;
+    background: none;
+}
+
+#submit_assignment {
+    background-color: black;
+    color: #eee;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
+#submit_assignment:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+.course-module-content .icon {
+    height: 1.2em !important;
+    width: 1.2em !important;
+}

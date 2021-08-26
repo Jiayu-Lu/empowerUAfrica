@@ -1,0 +1,23 @@
+.comment-footer-table {
+    display: inline-table;
+    width: 100%;
+}
+
+.comment-footer-table > tr {
+    width: 100%;
+}
+
+.comment-footer-table td {
+    text-align: center;
+}
+
+.comment-footer-icon {
+    height: 1.5em;
+    width: 1.5em;
+    padding: .2em;
+    opacity: .75;
+}
+.comment-footer-icon:hover {
+    cursor: pointer;
+    opacity: 1;
+}

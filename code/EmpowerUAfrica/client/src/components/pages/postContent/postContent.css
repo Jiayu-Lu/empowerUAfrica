@@ -1,0 +1,35 @@
+.post-content {
+    margin-top: 70px;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-image: url('../../../resource/icons/background_image.png');
+    background-size: cover;
+}
+
+.post-content-column {
+    margin-top: 30px;
+}
+
+#makecomment_activator, #makecomment_deactivator, #makecomment_submit {
+    background-color: yellowgreen;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#makecomment_deactivator, .postContent_makeComment {
+    display: none;
+}
+
+#makecomment_activator:hover, #makecomment_deactivator:hover, #makecomment_submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.postContent_makeComment textarea{
+    min-height: 200px;
+    min-width: 100%;
+}

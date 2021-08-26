@@ -1,0 +1,66 @@
+/*
+post part while replying
+*/
+.post-reply {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    margin: 30px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+/*
+link to "community/post_content"
+*/
+.inner {
+    text-decoration: none;
+    color: black;
+}
+/*
+post icon
+*/
+.post > img{
+
+    width: 35px;
+    height: 35px;
+}
+
+.reply-body {
+    padding: 2em 1em;
+    border-radius: .4em;
+    font-size: 1.2em;
+    background-color: rgb(240, 240, 240);
+}
+
+.reply-content-block {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+.subreplies-block {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.reply-to-reply {    
+    padding-left: 1em;
+    padding-bottom: 0.25em;
+    padding-right: 0.25em;
+    margin-top: 1em;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 3px gray;
+}
+
+.reply-highlight {
+    background-color: wheat;
+}
+
+.reply-to-highlight {
+    background-color: antiquewhite;
+}
+
+.post-time {
+    text-align: right;
+}
